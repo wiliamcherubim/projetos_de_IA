@@ -1,3 +1,14 @@
+Quero entrar na área de tecnologia, estou em transição de carreira e tenho 1h por dia para estudar.
+Meu background é em [qualidade industrial, desenvolvimento de produtos em área automotiva, PPAP, 8D e FMEA].
+
+Me ajude a decidir por onde começar. Responda assim:
+
+1. Três áreas que combinam com meu perfil, em ordem de afinidade
+2. Uma sugestão final de qual escolher e o porquê
+3. Cinco tópicos iniciais para estudar nessa área
+
+Use linguagem simples, como se fosse uma conversa com um amigo.
+
 Seu histórico automotivo é um baita trunfo para a tecnologia. Qualidade de Software (QA), Gestão de Produtos (Product Management) e Análise de Dados são as três áreas que mais combinam com você.
 Como você tem uma hora por dia, o caminho mais rápido e seguro é aproveitar o que você já sabe sobre prevenção de falhas e processos rigorosos. Veja como organizar essa transição:
 
