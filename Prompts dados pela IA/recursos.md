@@ -1,6 +1,13 @@
 # 📚 Recursos e Materiais de Apoio
 
-Este documento centraliza as referências gratuitas, ferramentas recomendadas e documentos de apoio para o seu plano de 30 dias em QA, organizados **semana a semana**.
+Este documento centraliza as referências gratuitas, ferramentas recomendadas e documentos de apoio para o seu plano de 30 dias em QA, organizados **semana a semana** e alinhados à sua estratégia de **transição de carreira**.
+
+---
+
+## 🧭 Documentos de Carreira & Contexto
+
+- 📑 **[Guia de Transição de Carreira & Equivalências](docs/contexto-e-transicao.md):** Mapeamento detalhado de como traduzir ferramentas da qualidade industrial/automotiva (**FMEA**, **8D**, **PPAP**) para termos, cerimônias e práticas de QA de Software.
+- 💬 **[Diálogo de Diagnóstico Inicial](prompts_IA.md):** Perguntas e respostas que definiram a escolha de QA e a rotina de 1h/dia.
 
 ---
 
@@ -24,8 +31,9 @@ Aproveite modelos e anotações armazenadas em suas pastas e conversas para apoi
   - *Destaque de leitura:* Capítulos 1 (Fundamentos da Testagem) e 2 (Testes ao Longo do Ciclo de Vida de Software).
 - **Validação vs. Verificação:**
   - Artigos de referência sobre a diferença entre *"construir o produto certo"* (validação com stakeholders) e *"construir o produto corretamente"* (verificação contra requisitos).
-- **Ciclo de Vida do Defeito:**
+- **Ciclo de Vida do Defeito & Contenção:**
   - Guia visual de estados de bugs (*New, Assigned, Open, Fixed, Retest, Verified, Closed, Reopened*).
+  - *Paralelo industrial:* Compare o ciclo do bug com as fases de contenção (D3) e correção definitiva (D5/D6) do método 8D.
 - **Ferramentas para Mapas Mentais (Dia 06):**
   - [Miro](https://miro.com/) ou [Whimsical](https://whimsical.com/) para diagramas ágeis.
   - [Mermaid Live Editor](https://mermaid.live/) para geração de mapas mentais direto em Markdown.
@@ -43,7 +51,8 @@ Aproveite modelos e anotações armazenadas em suas pastas e conversas para apoi
 - **BDD e Critérios de Aceite:**
   - Sintaxe Gherkin: `Dado (Given)`, `Quando (When)`, `Então (Then)`.
   - [Documentação Oficial do Cucumber / Gherkin](https://cucumber.io/docs/gherkin/reference/)
-- **Técnicas de Design de Teste (Caixa-Preta):**
+  - *Paralelo industrial:* Veja as especificações de BDD como os cadernos de encargos e relatórios dimensionais do PPAP.
+- **Técnicas de Design de Teste (FMEA Aplicado a Software):**
   - *Partição de Equivalência (Equivalence Partitioning):* Divisão de entradas válidas e inválidas.
   - *Análise de Valor Limite (Boundary Value Analysis - BVA):* Identificação de fronteiras mínimas, nominais e máximas.
 - **Ferramentas de Gestão de Testes:**
@@ -54,10 +63,11 @@ Aproveite modelos e anotações armazenadas em suas pastas e conversas para apoi
 ### 🗓️ Semana 3: Reporte de Bugs, SQL Essencial & Testes de API
 *Foco: Comunicação técnica de falhas, consulta a banco de dados relacional e requisições HTTP.*
 
-- **Reporte de Bugs:**
+- **Reporte de Bugs Profissional:**
   - Boas práticas no Jira / Azure DevOps: Título conciso, passos reproduzíveis, severidade vs. prioridade, logs de console e prints anotados.
+  - *Paralelo industrial:* Estruture o bug report aplicando a mentalidade de causa raiz do 8D e Diagrama de Ishikawa.
 - **Banco de Dados & SQL para QA:**
-  - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/): Plataforma interativa excelente para praticar comandos `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY` e `JOIN`.
+  - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/): Plataforma interativa para praticar comandos `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY` e `JOIN`.
   - [SQLBolt](https://sqlbolt.com/): Lições interativas passo a passo com exercícios práticos diretamente no navegador.
   - [DB Fiddle](https://www.db-fiddle.com/) ou [SQL Fiddle](https://sqlfiddle.com/): Ambientes online para criar tabelas temporárias e simular cenários de teste.
 - **Conceitos de API REST & HTTP:**
@@ -84,4 +94,4 @@ Aproveite modelos e anotações armazenadas em suas pastas e conversas para apoi
 - **Portfólio & Git/GitHub:**
   - [GitHub Docs - Hello World](https://docs.github.com/pt/get-started/start-your-journey/hello-world): Estruturação de repositório profissional com README explicativo, badges e prints de evidências de execução.
 - **Preparação para Entrevistas:**
-  - Perguntas clássicas de QA: diferença entre Smoke e Sanidade, como você lida com um desenvolvedor que diz "na minha máquina funciona", o que é um teste flaky, etc.
+  - Como estruturar seu *pitch* profissional explicando a transição de qualidade automotiva para QA de software, destacando como o raciocínio preventivo de FMEA e 8D se traduz em código automatizado com Playwright e validações de API/SQL.
